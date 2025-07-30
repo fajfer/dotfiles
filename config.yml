@@ -47,24 +47,29 @@ links:
     url: "https://mastodon.social/@fajfer"
     target: "_blank"
 services:
-  - name: "Usługi zewnętrzne"
-    icon: "fas fa-globe"
+  - name: "Usługi reszka.org"
+    icon: "fab fa-linux"
     items:
       - name: "PeerTube"
-        tag: "reszka"
         icon: "fab fa-youtube"
         subtitle: "Peertube (odpowiednik YouTube)"
         url: "https://tube.reszka.org"
       - name: "Synapse"
-        tag: "reszka"
         icon: "fas fa-comments"
         subtitle: "Serwer Matrix (homeserver)"
         url: "https://reszka.org"
       - name: "Vikunja"
-        tag: "reszka"
-        icon: "fab fa-user-plus"
+        icon: "fa fa-user-plus"
         subtitle: "Task manager/issue tracker"
         url: "https://zadania.reszka.org"
+      - name: "Radicale"
+        icon: "fas fa-calendar-alt"
+        subtitle: "Serwer CalDAV/CardDAV"
+        url: "https://kalendarz.reszka.org"
+
+  - name: "Usługi zewnętrzne"
+    icon: "fas fa-globe"
+    items:
       - name: "blog.fajfer.org"
         icon: "fas fa-blog"
         subtitle: "Mój blog"
@@ -77,6 +82,7 @@ services:
         icon: "fas fa-home"
         subtitle: "Ten dashboard"
         tag: "infra"
+
   - name: "Usługi wewnętrzne"
     icon: "fas fa-server"
     items:
